@@ -8,7 +8,6 @@ const App = () => {
     return (
         <div>
             <BrowserRouter>
-                <h1>Hello New World</h1>
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/earth" element={<Earth />} />
